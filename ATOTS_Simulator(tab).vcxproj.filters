@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ctrl">
+      <UniqueIdentifier>{172f3fe2-1f1a-4c14-aeb9-f5e80d0d2b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{7a2e4b69-da87-4fe5-831f-db0f68bee04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{af3f27cb-148c-4607-909d-eb2dc080eb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Send">
+      <UniqueIdentifier>{9fde9bd7-1ca2-41ef-b955-87aafe0fe1f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ATOTS_Simulator(tab).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ATOTS_Simulator(tab)Dlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabDlg1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabDlg2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CTSInfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="kr37_atp_msg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ATO_Types.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GridPropertyOverride.h">
+      <Filter>Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="F110_Radio_Packet.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="126 Item Enums.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="F110_Msg_Encoder_ATO.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="F110_Msg_Decoder_ATO.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyCtrlBuilder.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="json-forwards.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTable.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogListCtrl.h">
+      <Filter>Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="packet02Tab.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet01Tab.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet04Tab.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet07Tab.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet09Tab.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet10Tab.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet01Tab_2.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet02Tab_2.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet04Tab_2.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet07Tab_2.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet09Tab_2.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="packet10Tab_2.h">
+      <Filter>Send</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ATOTS_Simulator(tab).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ATOTS_Simulator(tab)Dlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabDlg1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabDlg2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CTSInfo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GridPropertyOverride.cpp">
+      <Filter>Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="F110_Msg_Encoder_ATO.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="F110_Msg_Decoder_ATO.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyCtrlBuilder.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTable.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogListCtrl.cpp">
+      <Filter>Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="packet02Tab.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet01Tab.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet04Tab.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet07Tab.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet09Tab.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet10Tab.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet01Tab_2.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet02Tab_2.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet04Tab_2.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet07Tab_2.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet09Tab_2.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="packet10Tab_2.cpp">
+      <Filter>Send</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ATOTSSimulatortab.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ATOTSSimulatortab.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ATOTS_Simulator(tab).ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\atostatus_EG.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\disconnect-plug-icon.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\disconnected.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\connected.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\connected-plug-icon.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\train.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\train_5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Warning.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Check.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\driver.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\dashboard.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\length.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\atostatus_NP.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\atostatus_AV.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\atostatus_CO.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\atostatus_DE.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\atostatus_FA.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\atostatus_NA.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\atostatus_RE.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\blank.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ato_av1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ato_co1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ato_de1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ato_eg1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ato_fa1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ato_na1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ato_np1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ato_re1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\blank1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\check1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\connect1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\dashboar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\disconne.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\warn1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
